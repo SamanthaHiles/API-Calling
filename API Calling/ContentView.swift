@@ -33,7 +33,7 @@ struct ContentView: View {
                     }
                 }
             }
-            .navigationTitle("Trending Romance Books")
+            .navigationTitle("1800's Romance Books")
             .task {
                 await fetchBooks()
             }
