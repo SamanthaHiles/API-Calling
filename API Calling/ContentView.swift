@@ -107,6 +107,7 @@ struct BookDetailView: View {
 }
 
 struct SearchResult: Decodable {
+    //Makes it able to be viewed in Swift UI
     let docs: [Book]
 }
 
